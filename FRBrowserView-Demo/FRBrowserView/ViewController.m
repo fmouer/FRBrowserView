@@ -23,6 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"FRBrowserView";
+    
     _titleArray = [NSArray arrayWithObjects:
   @{@"title":@"1",@"class":@"BrowserType1ViewController"},
   @{@"title":@"2",@"class":@"BrowserType2ViewController"},
