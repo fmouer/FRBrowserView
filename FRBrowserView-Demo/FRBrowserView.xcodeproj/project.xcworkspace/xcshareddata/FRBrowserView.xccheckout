@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DA4361D7-906E-46C5-A6D0-290A7EFB8FB7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FRBrowserView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8BA1885D802C6EA2F298F03B13E8E3EF0A3DB7D4</key>
+		<string>https://github.com/fmouer/FRBrowserView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FRBrowserView-Demo/FRBrowserView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8BA1885D802C6EA2F298F03B13E8E3EF0A3DB7D4</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fmouer/FRBrowserView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8BA1885D802C6EA2F298F03B13E8E3EF0A3DB7D4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8BA1885D802C6EA2F298F03B13E8E3EF0A3DB7D4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FRBrowserView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

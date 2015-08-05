@@ -38,11 +38,18 @@
                    @"http://img.ihotdo.com/ifs1/M00/BC/C3/wKgKqlW3JwmAE1DpAA8nDMoTUs0436_320x320.jpg",
                    @"http://img.ihotdo.com/ifs1/M00/D6/F8/wKgKqlW3JwmAS42GABGNMeqS7tc195_320x320.jpg"];
     
+    //测试
     _page = 10;
     
     
     CGRect rect = self.view.bounds;
     
+    /**
+     *！！！！ 上拉加载和下拉刷新需要注意；
+     *
+     *用的第三方上拉加载和下拉刷新，不过当下拉刷新加载请求未完成时还可以上拉加载，这样就会有BUG。
+     *用到实际项目中的话需要进一步优化这一块
+     */
     _browserView = [[FRBrowserView alloc] initWithFrame:(CGRect){0,64,rect.size.width,rect.size.height - 64}];
     _browserView.delegagte = self;
     
@@ -64,6 +71,7 @@
     
     _browserView.scrollDirection = UICollectionViewScrollDirectionVertical;
     
+    //设置上拉加载和下拉刷新
     _browserView.refreshType = FRBrowserRefreshTypeRefreshAndLoading;
     [self.view addSubview:_browserView];
 

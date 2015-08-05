@@ -39,6 +39,9 @@
         _page = 1;
     }
     
+    /**
+     ** 图片可双击放大和手势放大
+     */
     _browserView = [[FRBrowserView alloc] initWithFrame:self.view.bounds];
     _browserView.delegagte = self;
     
@@ -54,7 +57,10 @@
     _browserView.doubleZoomInType = YES;
     //手势放大
     _browserView.gestureZoomInType = YES;
+    //展示第几张
     _browserView.showFirstItem = _showFirstItem;
+    
+    //UIScrollView pagingEnable
     _browserView.pagingEnabled = YES;
     _browserView.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     [self.view addSubview:_browserView];
