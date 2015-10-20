@@ -17,11 +17,6 @@
 
 @property (nonatomic, strong)UIColor * shadowColor;
 
-//- (void)setImageUrlString:(NSString *)urlString
-//         placeholderImage:(UIImage *)placeholderImage
-//                  loading:(void(^)())loading
-//           imageSizeBlock:(void(^)(CGSize size))sizeBlock;
-
 -(void)setImageUrlString:(NSString *)urlString placeholderImage:(UIImage *)placeholderImage  imageSizeBlock:(void (^)(CGSize))sizeBlock;
 
 

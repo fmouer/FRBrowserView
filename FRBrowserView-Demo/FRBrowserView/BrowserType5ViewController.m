@@ -34,7 +34,7 @@
     
     
     FRBrowserView   * browserView = [[FRBrowserView alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width,60)];
-    browserView.backgroundColor = [UIColor redColor];
+    browserView.backgroundColor = [UIColor lightGrayColor];
     browserView.delegagte = self;
     
     //不按照图片的比例显示，按照cell的比例显示
@@ -54,7 +54,7 @@
     browserView.cellLeftSpace = browserView.zoomCenterScale * browserView.frame.size.width - browserView.itemImageSize.width/2;
     browserView.cellRightSpace = browserView.frame.size.width - browserView.cellLeftSpace - browserView.itemImageSize.width;
     //cell放大倍数
-    browserView.zoomFactor = 0.15;
+    browserView.zoomFactor = 0.2;
     [self.view addSubview:browserView];
     
 }

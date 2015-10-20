@@ -51,13 +51,13 @@
     _browserView.cellLeftSpace = 0;
     //第一次展示第3张图
     _browserView.showFirstItem = 0;
-    //图片比例显示
+    //图片比例显示，NO则填充显示
     _browserView.imageAdaptSizeType = YES;
     //双击放大
     _browserView.doubleZoomInType = YES;
     //手势放大
     _browserView.gestureZoomInType = YES;
-    //展示第几张
+    //首次展示第几张
     _browserView.showFirstItem = _showFirstItem;
     
     //UIScrollView pagingEnable

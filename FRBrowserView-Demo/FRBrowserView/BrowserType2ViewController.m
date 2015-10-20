@@ -34,7 +34,7 @@
     
     
     FRBrowserView   * browserView = [[FRBrowserView alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width,60)];
-    browserView.backgroundColor = [UIColor redColor];
+    browserView.backgroundColor = [UIColor lightGrayColor];
     browserView.delegagte = self;
     
     //不按照图片的比例显示，按照cell的比例显示
