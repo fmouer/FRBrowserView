@@ -56,7 +56,7 @@
     browserView.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     [self.view addSubview:browserView];
 ```
-  ![screenshot1](https://github.com/fmouer/FRBrowserView/raw/master/Screenshot/Screenshot_2.png)<br>
+  ![screenshot2](https://github.com/fmouer/FRBrowserView/raw/master/Screenshot/Screenshot_2.png)<br>
   
 ##<a name="type3"/>图片方格模式浏览，支持上拉加载和下拉刷新
   ```Object-c
@@ -86,8 +86,8 @@
     _browserView.refreshType = FRBrowserRefreshTypeRefreshAndLoading;
     [self.view addSubview:_browserView];
 ```
-![screenshot1](https://github.com/fmouer/FRBrowserView/raw/master/Screenshot/Screenshot_3.gif)<br>
-![screenshot1](https://github.com/fmouer/FRBrowserView/raw/master/Screenshot/Screenshot_4.png)<br>
+![screenshot3](https://github.com/fmouer/FRBrowserView/raw/master/Screenshot/Screenshot_3.gif)<br>
+![screenshot4](https://github.com/fmouer/FRBrowserView/raw/master/Screenshot/Screenshot_4.png)<br>
 
 ##<a name="type4"/>图片横向浏览，可设置某一位置，当图片滑动到该位置时图片逐渐放大
 ```Object-c
@@ -115,5 +115,5 @@
     browserView.zoomFactor = 0.2;
     [self.view addSubview:browserView];
 ```
-![screenshot1](https://github.com/fmouer/FRBrowserView/raw/master/Screenshot/Screenshot_5.gif)<br>
+![screenshot5](https://github.com/fmouer/FRBrowserView/raw/master/Screenshot/Screenshot_5.gif)<br>
 
